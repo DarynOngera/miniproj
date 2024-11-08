@@ -218,6 +218,7 @@ def mini_game(stdscr):
                 next_level_threshold += 5
 
             # Display score, level, and lives
+
             stdscr.addstr(0, 2, f"Score: {score} | Level: {level} | Lives: {lives}",
                           curses.color_pair(2) | curses.A_BOLD)
             stdscr.hline(1, 1, '-', screen_width - 2, curses.color_pair(2))
