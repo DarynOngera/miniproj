@@ -115,7 +115,6 @@ def mini_game(stdscr):
         paddle_x = (screen_width - paddle_width) // 2
         paddle_y = screen_height - 2
 
-#Tester
         score = 0
         level = 1
         lives = 3
