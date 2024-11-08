@@ -31,9 +31,6 @@ cd pong.py
 ```
 
 
-**Customize Background Image:**
-
-Place a background.jpg image in the same directory as the game code. Alternatively, modify the code to reference a different image.
 
 **Run the Game:**
 
