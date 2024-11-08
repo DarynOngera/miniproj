@@ -233,7 +233,6 @@ def mini_game(stdscr):
             frame += 1
 
         # Game over screen
-
         stdscr.clear()
         stdscr.addstr(screen_height // 2, screen_width // 2 - 5, "GAME OVER!")
         stdscr.addstr(screen_height // 2 + 1, screen_width // 2 - 9, f"Final Score: {score}")
