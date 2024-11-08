@@ -218,6 +218,7 @@ def mini_game(stdscr):
                 next_level_threshold += 5
 
             # Display score, level, and lives
+
             stdscr.addstr(0, 2, f"Score: {score} | Level: {level} | Lives: {lives}",
                           curses.color_pair(2) | curses.A_BOLD)
             stdscr.hline(1, 1, '-', screen_width - 2, curses.color_pair(2))
@@ -232,6 +233,7 @@ def mini_game(stdscr):
             frame += 1
 
         # Game over screen
+
         stdscr.clear()
         stdscr.addstr(screen_height // 2, screen_width // 2 - 5, "GAME OVER!")
         stdscr.addstr(screen_height // 2 + 1, screen_width // 2 - 9, f"Final Score: {score}")
