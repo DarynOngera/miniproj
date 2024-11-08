@@ -1,10 +1,10 @@
-Pong with Power-Ups
+**Pong with Power-Ups**
 
-A Pygame-based Pong Game
+**A Pygame-based Pong Game**
 
 This is a Pygame implementation of a classic Pong game with a twist: power-ups and downgrades. Players can collect items to increase or decrease their paddle size, adding a strategic element to the game.
 
-Features:
+**Features:**
 
 Core Pong Mechanics: Control a paddle to bounce a ball and score points.
 Power-Ups and Downgrades: Collect items to alter paddle size.
@@ -13,17 +13,16 @@ Customizable Background: Enhance the visual experience.
 Game Over Screen: Clear end-game state.
 Installation and Setup:
 
-Install Pygame:
+**Install Pygame:**
 Bash
 pip install pygame
-Use code with caution.
 
-Run the Game:
+**Run the Game:**
 Bash
 python pong_game.py
-Use code with caution.
 
-Customization:
+
+**Customization:**
 You can customize the game by modifying the following in pong_game.py:
 
 Screen dimensions
@@ -32,12 +31,12 @@ Ball size
 Colors
 Background image
 Contributing:
-Feel free to contribute to this project by:
+**Feel free to contribute to this project by:**
 
 Submitting bug reports
 Suggesting new features
 Improving the codebase
-License:
-This project is open-source and released under the [License Name] license.
+**License:**
+This project is open-source.
 
 Enjoy the game!
