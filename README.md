@@ -46,12 +46,23 @@ Tailor the Game to Your Preferences:
 
 The pong_game.py file allows you to modify specific constants to personalize your gaming experience. These constants include:
 
-WIDTH & HEIGHT: Dimensions of the game screen
-PADDLE_WIDTH & PADDLE_HEIGHT: Size of your paddle
-BALL_RADIUS: Size of the ball
-PADDLE_COLOR: Color of your paddle
-BACKGROUND_COLOR: Color behind the background image (if no image is used)
-Contributing
+WIDTH & HEIGHT: 
+
+Dimensions of the game screen
+PADDLE_WIDTH & PADDLE_HEIGHT: 
+
+Size of your paddle
+BALL_RADIUS: 
+
+Size of the ball
+PADDLE_COLOR:
+
+Color of your paddle
+BACKGROUND_COLOR:
+
+Color behind the background image (if no image is used)
+
+**Contributing**
 We encourage your contributions to this project! Here's how you can participate:
 
 **Report bugs:**
