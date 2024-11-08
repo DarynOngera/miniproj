@@ -1,10 +1,12 @@
 
 **PowerPong**
+
 Elevate Your Pong Experience with Strategic Power-Ups!
 
 This repository provides a professional-grade implementation of the classic Pong game built with Pygame. It adds a unique twist by incorporating power-ups and downgrades that alter your paddle size, introducing a layer of strategic gameplay.
 
 **Key Features**
+
 Authentic Pong Mechanics: Master the art of controlling your paddle, bouncing the ball, and racking up points.
 Strategic Power-Ups & Downgrades: Seize opportunities to enlarge or shrink your paddle, demanding tactical decisions.
 Performance Tracking: Monitor your lives and score to gauge your progress and strategize accordingly.
