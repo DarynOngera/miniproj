@@ -14,11 +14,11 @@ Game Over Screen: Clear end-game state.
 Installation and Setup:
 
 **Install Pygame:**
-Bash
+
 pip install pygame
 
 **Run the Game:**
-Bash
+
 python pong_game.py
 
 
