@@ -1,5 +1,5 @@
 
-**INTRODUCING PowerPong: A Pygame Implementation**
+**PowerPong**
 Elevate Your Pong Experience with Strategic Power-Ups!
 
 This repository provides a professional-grade implementation of the classic Pong game built with Pygame. It adds a unique twist by incorporating power-ups and downgrades that alter your paddle size, introducing a layer of strategic gameplay.
