@@ -5,14 +5,14 @@ import math
 # Initialize Pygame
 pygame.init()
 
-# Define constants
+# constants
 WIDTH, HEIGHT = 800, 600
 FPS = 60
 BALL_RADIUS = 15
 PADDLE_HEIGHT = 20
 PADDLE_WIDTH = 100
-PADDLE_COLOR = (255, 0, 255)  # Neon Purple
-BACKGROUND_COLOR = (0, 0, 0)  # Black
+PADDLE_COLOR = (255, 0, 255)
+BACKGROUND_COLOR = (0, 0, 0)
 
 # Define colors
 WHITE = (255, 255, 255)
@@ -24,7 +24,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pong Game")
 
 # Load background image
-background_image = pygame.image.load("background.jpg")  # Use your own background image file
+background_image = pygame.image.load("background.jpg")
 background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
 
@@ -59,7 +59,7 @@ class Downgrade:
         return -30  # Decrease paddle width
 
 
-# Ball class with angle-based movement
+
 class Ball:
     def __init__(self, x, y, radius, speed):
         self.x = x
@@ -85,7 +85,7 @@ class Ball:
         self.velocity_y = math.sin(self.angle) * self.speed
 
     def check_collision_with_paddle(self, paddle_rect):
-        """Check if the ball collides with the paddle"""
+
         if paddle_rect.colliderect(
                 pygame.Rect(self.x - self.radius, self.y - self.radius, self.radius * 2, self.radius * 2)):
             # Calculate the point of impact on the paddle
@@ -96,12 +96,12 @@ class Ball:
         return None
 
     def check_collision_with_item(self, item_x, item_y, item_radius):
-        """Check for collision with power-ups or downgrades (circles)"""
+
         distance = math.sqrt((self.x - item_x) ** 2 + (self.y - item_y) ** 2)
         return distance < self.radius + item_radius
 
 
-# Initialize game variables
+# Game variables
 clock = pygame.time.Clock()
 score = 0
 level = 1
@@ -118,7 +118,6 @@ paddle_color = PADDLE_COLOR
 power_ups = []
 downgrades = []
 
-# Define the scoring thresholds to increase the level
 SCORE_THRESHOLD = 5  # Increase level every 5 points
 SPEED_INCREMENT = 1   # Increase speed for each level
 
@@ -126,7 +125,7 @@ SPEED_INCREMENT = 1   # Increase speed for each level
 running = True
 while running:
     screen.fill(BACKGROUND_COLOR)
-    screen.blit(background_image, (0, 0))  # Draw the background image
+    screen.blit(background_image, (0, 0))
 
     # Handle events
     for event in pygame.event.get():
@@ -157,7 +156,7 @@ while running:
         downgrade.draw()
         if ball.check_collision_with_item(downgrade.x, downgrade.y, 10):
             paddle_width += downgrade.collect()  # Decrease paddle width
-            downgrades.remove(downgrade)  # Remove the downgrade after collection
+            downgrades.remove(downgrade)
 
     # Update ball and check for collision
     ball.move()
