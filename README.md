@@ -18,14 +18,16 @@ Ensure you have Python and Pygame installed on your system.
 
 Install Pygame (if not already installed):
 
-
+```bash
 pip install pygame
-
+```
 
 **Clone the Repository (if applicable):**
 
-git clone [https://github.com/your_username/pong_game.git](https://github.com/your_username/pong_game.git)
-cd pong_game
+git clone [https://github.com/DarynOngera/miniproj)
+```bash
+cd pong.py
+```
 
 
 **Customize Background Image:**
@@ -35,7 +37,7 @@ Place a background.jpg image in the same directory as the game code. Alternative
 **Run the Game:**
 
 ```bash
-python pong_game.py
+python pong.py
 ```
 
 **Customization**
