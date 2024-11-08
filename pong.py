@@ -16,6 +16,7 @@ PADDLE_WIDTH = 100
 PADDLE_COLOR = (255, 0, 255)  # Neon Purple
 BACKGROUND_COLOR = (0, 0, 0)  # Black
 
+
 # Define colors
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
