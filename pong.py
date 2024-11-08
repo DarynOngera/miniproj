@@ -3,6 +3,7 @@ import random
 import math
 import time
 
+
 # Initialize Pygame
 pygame.init()
 
@@ -14,6 +15,7 @@ PADDLE_HEIGHT = 20
 PADDLE_WIDTH = 100
 PADDLE_COLOR = (255, 0, 255)  # Neon Purple
 BACKGROUND_COLOR = (0, 0, 0)  # Black
+
 
 # Define colors
 WHITE = (255, 255, 255)
